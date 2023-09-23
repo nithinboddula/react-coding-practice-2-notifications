@@ -1,0 +1,84 @@
+/* Write your code here. */
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  padding: 20px;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 3px;
+  height: 60px;
+  width: 250px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    height: 50px;
+    width: 350px;
+  }
+}
+.card-1 {
+  color: #ffffff;
+  background-color: #0b69ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+}
+
+.message {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .message {
+    color: #ffffff;
+    font-size: 14px;
+  }
+}
+.card-2 {
+  color: #ffffff;
+  background-color: #2dca73;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card-3 {
+  color: #ffffff;
+  background-color: #ffb800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card-4 {
+  color: #ffffff;
+  background-color: #ff0b37;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
